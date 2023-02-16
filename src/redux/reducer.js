@@ -18,7 +18,6 @@ export const Selectedreducers = (state = carts, action) => {
         if (ItemIndex >= 0) {
             state.cart[ItemIndex].qnty += 1
         }
-
         else {
 
 

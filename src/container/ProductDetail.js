@@ -15,7 +15,7 @@ function ProductDetail() {
 
     const compair = () => {
         let compairData = carts.filter((e) => {
-            return e.id == id
+            return e.id === id
         });
         setdata(compairData)
     }
