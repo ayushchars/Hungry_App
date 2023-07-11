@@ -34,7 +34,7 @@ function Products() {
                             <p>Price - ₹ {price}</p>
                         </div>
                         <div className='btn'>
-                            <button onClick={() => send(item)}>ADD TO CART</button>
+                            <button onClick={() => send(item)}>CART</button>
                         </div>
 
                     </div>
